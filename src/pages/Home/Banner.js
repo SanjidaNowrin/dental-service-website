@@ -14,7 +14,7 @@ const Banner = () => {
           backgroundSize: "cover",
         }}
       >
-        <div className="container">
+        <div className="container mb-5">
           <div
             style={{ height: "80vh" }}
             className="d-flex justify-content-center align-items-center"
@@ -34,7 +34,8 @@ const Banner = () => {
               <Bounce>
                 <NavLink
                   to="/courses"
-                  className="px-4 py-2 rounded-pill btn btn-primary fs-5"
+                  className="px-4 py-2 border-0 rounded-pill btn btn-primary fs-5"
+                  style={{ backgroundColor: "#023c76" }}
                 >
                   View Courses
                 </NavLink>

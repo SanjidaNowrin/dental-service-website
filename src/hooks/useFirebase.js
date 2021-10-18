@@ -30,6 +30,7 @@ const useFirebase = () => {
   const [name, setName] = useState("");
   const [photo, setPhoto] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(true);
 
   // clear error
   useEffect(() => {
@@ -40,48 +41,22 @@ const useFirebase = () => {
 
   // google sign in
   function signInWithGoogle() {
-    signInWithPopup(auth, googleProvider)
-      .then((result) => {
-        setUser(result.user);
-      })
-      .catch((err) => {
-        setError(err.message);
-      });
+    return signInWithPopup(auth, googleProvider);
   }
 
   // gitHub sign in
   function signInWithGithub() {
-    signInWithPopup(auth, gitHubProvider)
-      .then((result) => {
-        console.log(result.user);
-        setUser(result.user);
-      })
-      .catch((err) => {
-        setError(err.message);
-      });
+    return signInWithPopup(auth, gitHubProvider);
   }
 
   // facebook sign in
   function signInWithFacebook() {
-    signInWithPopup(auth, fbProvider)
-      .then((result) => {
-        setUser(result.user);
-      })
-      .catch((err) => {
-        setError(err.message);
-      });
+    return signInWithPopup(auth, fbProvider);
   }
   // Email sign in
   function signInWithEmail(e) {
     e.preventDefault();
-    console.log(email, password);
-    signInWithEmailAndPassword(auth, email, password)
-      .then((result) => {
-        setUser(result.user);
-      })
-      .catch((err) => {
-        setError(err.message);
-      });
+    return signInWithEmailAndPassword(auth, email, password);
   }
   // set name and profile image url
   function setNameAndImage() {
@@ -106,7 +81,10 @@ const useFirebase = () => {
     const unsubscribe = onAuthStateChanged(auth, (signedInUser) => {
       if (signedInUser) {
         setUser(signedInUser);
+      } else {
+        setUser({});
       }
+      setLoading(false);
     });
     return () => unsubscribe;
   }, []);
@@ -173,13 +151,16 @@ const useFirebase = () => {
     logOut,
     signInWithGoogle,
     user,
+    setUser,
     error,
+    setError,
     getPassword,
     getEmail,
     singUp,
     getPhoto,
     getName,
     passwordReset,
+    loading,
   };
 };
 

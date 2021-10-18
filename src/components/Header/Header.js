@@ -1,21 +1,20 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "./../../assets/images/logo.png";
-import HeaderBG from "./../../assets/images/header-bg.png";
 
 import { NavLink } from "react-router-dom";
 import useAuth from "./../../hooks/useAuth";
 
 const Header = () => {
-  useAuth();
-  const { user, logOut } = useAuth();
+  const { allContext } = useAuth();
+  const { user, logOut } = allContext;
   const { displayName, photoURL, email } = user;
   return (
     <div className="sticky-top">
-      <Navbar style={{ background: `url(${HeaderBG})` }} expand="lg">
+      <Navbar style={{ backgroundColor: "#023c76" }} expand="lg">
         <Container>
           <Navbar.Brand to="/home" as={NavLink} className="text-white">
-            <img width="70px" src={logo} alt="Logo" /> Course Club Inistitute
+            <img width="100px" src={logo} alt="Logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -26,12 +25,10 @@ const Header = () => {
               <Nav.Link as={NavLink} className="text-white" to="/about">
                 ABOUT
               </Nav.Link>
-              <Nav.Link as={NavLink} className="text-white" to="/courses">
-                COURSES
+              <Nav.Link as={NavLink} className="text-white" to="/dentist">
+                DENTIST
               </Nav.Link>
-              <Nav.Link className="text-white" as={NavLink} to="/contact">
-                CONTACT
-              </Nav.Link>
+
               {!user.displayName ? (
                 <>
                   <Nav.Link className="text-white" as={NavLink} to="/login">
