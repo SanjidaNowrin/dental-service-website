@@ -40,7 +40,8 @@ const Login = () => {
             <p className="text-center text-danger">{error}</p>
             <div className="mx-auto w-50">
               <Form
-                onSubmit={() => {
+                onSubmit={(e) => {
+                  e.preventDefault();
                   signInWithEmail()
                     .then((result) => {
                       setUser(result.user);

@@ -54,8 +54,7 @@ const useFirebase = () => {
     return signInWithPopup(auth, fbProvider);
   }
   // Email sign in
-  function signInWithEmail(e) {
-    e.preventDefault();
+  function signInWithEmail() {
     return signInWithEmailAndPassword(auth, email, password);
   }
   // set name and profile image url
