@@ -29,7 +29,7 @@ const Header = () => {
                 DENTIST
               </Nav.Link>
               <Nav.Link as={NavLink} className="text-white" to="/contact">
-                CONTACT US
+                CONTACT
               </Nav.Link>
 
               {!user.displayName ? (

@@ -109,6 +109,60 @@ const About = () => {
             </div>
           </div>
         </div>
+        {/* success section*/}
+        <h1 style={{ color: "#023c76" }} className="mt-5 text-center">
+          The Massive Success of Our Clinic
+        </h1>
+        <div className="mt-5 mb-5 row row-cols-1 row-cols-md-3 g-4">
+          <div className="col">
+            <div className="border-0 card h-100 ">
+              <div className="card-body">
+                <i
+                  className="mb-4 text-center fas fa-users fa-3x"
+                  style={{ color: "#023c76" }}
+                ></i>
+                <h4 className="card-title">Talented Doctors Team</h4>
+                <p className="card-text">
+                  We have built our dentistry over the strong pillars of 22 MDS
+                  surgeons. Our team has expert professionals who are immensely
+                  experienced.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="border-0 card h-100 ">
+              <div className="card-body">
+                <i
+                  className="mb-4 text-center fas fa-hand-holding-medical fa-3x"
+                  style={{ color: "#023c76" }}
+                ></i>
+                <h4 className="card-title">Affordable Dental Care</h4>
+                <p className="card-text">
+                  We provide dental care to nearly million patients every year.
+                  Listed below are some of the services can provide our
+                  patients.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="border-0 card h-100 ">
+              <div className="card-body">
+                <i
+                  className="mb-4 text-center fas fa-life-ring fa-3x"
+                  style={{ color: "#023c76" }}
+                ></i>
+                <h4 className="card-title">24/7 Support</h4>
+                <p className="card-text">
+                  Customer support is a range of customer services to assist
+                  customers in making cost effective and correct use of a
+                  product.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
