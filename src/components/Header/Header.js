@@ -14,7 +14,7 @@ const Header = () => {
       <Navbar style={{ backgroundColor: "#023c76" }} expand="lg">
         <Container>
           <Navbar.Brand to="/home" as={NavLink} className="text-white">
-            <img width="100px" src={logo} alt="Logo" />
+            <img width="180px" src={logo} alt="Logo" className="img-fluid" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -28,11 +28,14 @@ const Header = () => {
               <Nav.Link as={NavLink} className="text-white" to="/dentist">
                 DENTIST
               </Nav.Link>
+              <Nav.Link as={NavLink} className="text-white" to="/contact">
+                CONTACT US
+              </Nav.Link>
 
               {!user.displayName ? (
                 <>
                   <Nav.Link className="text-white" as={NavLink} to="/login">
-                    LOGIN
+                    LOG IN
                   </Nav.Link>
 
                   <Nav.Link className="text-white" as={NavLink} to="/signup">
@@ -53,7 +56,7 @@ const Header = () => {
                     <h6>{displayName}</h6>
                     <p className="m-0 mb-2">{email}</p>
                     <button onClick={logOut} className="btn btn-primary">
-                      Sign Out
+                      Log Out
                     </button>
                   </div>
                 </NavDropdown>

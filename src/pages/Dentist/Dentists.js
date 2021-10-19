@@ -4,10 +4,10 @@ import dentists2 from "../../assets/images/doctor-2.jpg";
 import dentists3 from "../../assets/images/doctor-3.jpg";
 import dentists4 from "../../assets/images/doctor-4.jpg";
 import dentists5 from "../../assets/images/doctor-5.jpg";
-import dentists6 from "../../assets/images/doctor-5.jpg";
-import dentists7 from "../../assets/images/doctor-6.jpg";
-import dentists8 from "../../assets/images/doctor-7.jpg";
-import dentists9 from "../../assets/images/doctor-8.jpg";
+import dentists6 from "../../assets/images/doctor-6.jpg";
+import dentists7 from "../../assets/images/doctor-7.jpg";
+import dentists8 from "../../assets/images/doctor-8.jpg";
+import dentists9 from "../../assets/images/doctor-9.jpg";
 import Dentist from "./Dentist";
 const dentists = [
   {
@@ -59,19 +59,15 @@ const dentists = [
 
 const Dentists = () => {
   return (
-    <div>
-      <div>
+    <div className="container">
+      <div className="row ">
         <h1 style={{ color: "#023c76" }} className="mt-5 text-center">
-          Our Specialized and Experienced <br /> Dentist
+          Our Specialized and Experienced <br />
+          <span style={{ color: "black" }}>-Dentist-</span>
         </h1>
-      </div>
-      <div className="container">
-        <h2 className="mt-5 text-center text-primary">Our Experts</h2>
-        <div className="row">
-          {dentists.map((dentist) => (
-            <Dentist key={dentist.name} dentist={dentist}></Dentist>
-          ))}
-        </div>
+        {dentists.map((dentist) => (
+          <Dentist key={dentist.name} dentist={dentist}></Dentist>
+        ))}
       </div>
     </div>
   );

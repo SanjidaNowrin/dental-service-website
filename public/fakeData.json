@@ -4,54 +4,63 @@
         "id":"1",
         "name":"Complete Whitening Pack",
         "img":"https://i.ibb.co/R4DjYWq/1.jpg",
-        "desc":"Using a whitening toothpaste or mouthwash, trying whitening pens, strips or trays are all good ways to supplement your normal oral hygiene habits"
+        "desc":"Using a whitening toothpaste or mouthwash, trying whitening pens, strips or trays are all good ways to supplement your normal oral hygiene habits.",
+        "advantages":"Straight, white teeth are no longer just for celebrities. Advancements in cosmetic dentistry over the last several years have made teeth whitening safer."
     },
     {
         "id":"2",
         "name":"Sedation Dentistry",
         "img":"https://i.ibb.co/q03LXDC/2.jpg",
-        "desc":"Sedation dentistry uses medication to help patients relax during dental procedures.Patients are usually awake with the exception."
+        "desc":"Sedation dentistry uses medication to help patients relax during dental procedures.Patients are usually awake with the exception of those who are under general anesthesia.",
+        "advantages":"Ease of Treatment. Whether you struggle with a gag reflex or have sensitive teeth or gums, sedation allows the Whitlock team to perform."
     },
     {
         "id":"3",
         "name":"Dental Cleaning",
         "img":"https://i.ibb.co/rHZbhJV/3.jpg",
-        "desc":"Most teeth cleanings are performed by a dental hygienist. Before the actual cleaning process begins, they start with a physical exam of your entire mouth. "
+        "desc":"Most teeth cleanings are performed by a dental hygienist. Before the actual cleaning process begins, they start with a physical exam of your entire mouth.",
+        "advantages":"It brightens your smile.Your teeth can get stained by certain food and drinks.Bad breath is reduced. The best way to reduce bad breath."
     },
     {
         "id":"4",
         "name":"Cosmetic Dentistry",
         "img":"https://i.ibb.co/2M1BpSs/4.jpg",
-        "desc":"If you’re not satisfied with your smile, modern cosmetic dentistry can help. This method of professional oral care focuses on improving the appearance."
+        "desc":"If you’re not satisfied with your smile, modern cosmetic dentistry can help. This method of professional oral care focuses on improving the appearance.",
+        "advantages":"Improved self-confidence. The benefits of improved self-confidence aren't easy to measure.Improved dental health."
     },
     {
         "id":"5",
         "name":"Fissure Sealants",
         "img":"https://i.ibb.co/JQZWvwP/5.jpg",
-        "desc":"Fissure sealants are a white or clear composite resin, similar to a white tooth filling. The sealants provide a barrier against bacteria that can cause plaque."
+        "desc":"Fissure sealants are a white or clear composite resin, similar to a white tooth filling. The sealants provide a barrier against bacteria that can cause plaque.",
+        "advantages":"Sealants are durable under the force of normal chewing and can last several years before reapplication is needed.Easy to apply."
     },
     {
         "id":"6",
         "name":"Oral Mucosa",
         "img":"https://i.ibb.co/5YtwBBV/6.jpg",
-        "desc":"The oral mucosa is the mucous membrane lining the inside of the mouth. It comprises stratified squamous epithelium.The oral mucosa is classified into three categories."
+        "desc":"The oral mucosa is the mucous membrane lining the inside of the mouth. It comprises stratified squamous epithelium.The oral mucosa is classified into three categories.",
+        "advantages":"The oral mucosa has several functions. Its main purpose is to act as a barrier. It protects the deeper tissues such as fat, muscle, nerve."
     },
     {
         "id":"7",
         "name":"Aligning the Teeth",
         "img":"https://i.ibb.co/bg8Gmj8/7.jpg",
-        "desc":"Teeth alignment is typically corrected through two methods: braces or aligners. In some cases, contemporary braces may be more appropriate."
+        "desc":"Teeth alignment is typically corrected through two methods: braces or aligners. In some cases, contemporary braces may be more appropriate  to address your orthodontic needs and budget.",
+        "advantages":"Proper alignment enhances tooth and jaw function, thus maximizing long-term oral health and comfort. Proper alignment increases the longevity of the dentistry."
     },
     {
         "id":"8",
         "name":"Child’s First Dental Visit",
         "img":"https://i.ibb.co/Ryh2q54/8.jpg",
-        "desc":"The first dental visit is recommended by 12 months of age, or within 6 months of the first tooth coming in.The first visit often lasts 30 to 45 minutes."
+        "desc":"The first dental visit is recommended by 12 months of age, or within 6 months of the first tooth coming in.The first visit often lasts 30 to 45 minutes.",
+        "advantages":"Scheduling your child's first dentist visit early is crucial for preventing cavities. Seeing the dentist early on in life will also help your child get used to "
     },
     {
         "id":"9",
         "name":"Caries Removal",
         "img":"https://i.ibb.co/G0MKxvk/Dentist-examining-little-boy-s-teeth-in-clinic.jpg",
-        "desc":"Selective Caries Removal in Permanent Teeth (SCRiPT) for the treatment of deep carious lesions: a randomized controlled clinical trial in primary care"
+        "desc":"Selective Caries Removal in Permanent Teeth (SCRiPT) for the treatment of deep carious lesions: a randomized controlled clinical trial in primary care.",
+        "advantages":"Conservative removal of tooth tissue for both primary and secondary caries reduces the risk of failure due to tooth-restoration"
     }
 ]

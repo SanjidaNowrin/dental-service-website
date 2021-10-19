@@ -1,19 +1,18 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import NotFound from "./pages/NotFound";
 import Header from "./components/Header/Header";
 import AuthProvider from "./contexts/AuthProvider";
-
-import Reset from "./pages/Reset";
 import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import Details from "./pages/Details/Details";
 import PrivateRoute from "./route/PrivateRoute";
 import About from "./pages/About";
 import Dentists from "./pages/Dentist/Dentists";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
@@ -38,15 +37,16 @@ function App() {
               <Details></Details>
             </PrivateRoute>
 
+            <Route path="/contact">
+              <Contact></Contact>
+            </Route>
             <Route path="/login">
               <Login></Login>
             </Route>
             <Route path="/signup">
               <Signup></Signup>
             </Route>
-            <Route path="/reset">
-              <Reset></Reset>
-            </Route>
+
             <Route path="*">
               <NotFound></NotFound>
             </Route>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
+import Dentist from "./../../pages/Dentist/Dentist";
 const Footer = () => {
   return (
     <div className="footer">
@@ -35,10 +36,10 @@ const Footer = () => {
                 <NavLink to="/contact">Contact us</NavLink>
               </li>
               <li>
-                <NavLink to="/courses">Courses</NavLink>
+                <NavLink to="/dentist">Dentist</NavLink>
               </li>
               <li>
-                <NavLink to="/policy">Policy</NavLink>
+                <NavLink to="/home">Policy</NavLink>
               </li>
             </ul>
           </div>
@@ -55,10 +56,16 @@ const Footer = () => {
                 <NavLink to="/contact">Contact us</NavLink>
               </li>
               <li>
-                <NavLink to="/courses">Courses</NavLink>
+                <NavLink to="/courses">Dentist</NavLink>
               </li>
               <li>
-                <NavLink to="/policy">Policy</NavLink>
+                <NavLink to="/home">Policy</NavLink>
+              </li>
+              <li>
+                <NavLink to="/signup">Sign Up</NavLink>
+              </li>
+              <li>
+                <NavLink to="/login">Log In</NavLink>
               </li>
             </ul>
           </div>
@@ -66,16 +73,16 @@ const Footer = () => {
             <h4>follow us</h4>
             <div class="social-links">
               <a href="#">
-                <i class="fab fa-facebook-f"></i>
+                <i className="fab fa-facebook-f"></i>
               </a>
               <a href="#">
-                <i class="fab fa-twitter"></i>
+                <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
               <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+                <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>

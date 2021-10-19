@@ -49,7 +49,7 @@ const About = () => {
                 </h5>
                 <h3 className="mt-4">1256</h3>
                 <p className="card-text">
-                  The Quality of Used Medical Materials.
+                  The Quality of Used Medical Materials and staff.
                 </p>
               </div>
             </div>

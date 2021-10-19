@@ -12,9 +12,14 @@ const Service = ({ service }) => {
       >
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body">
-          <h5 className="text-center card-title">{name}</h5>
+          <h3
+            className="mb-3 text-center card-title font-weight-bold"
+            style={{ color: "#023c76" }}
+          >
+            {name}
+          </h3>
           <p className="card-text">{desc}</p>
-
+          <br />
           <Link to={`/detail/${id}`}>
             <button className="container details-btn">Details</button>
           </Link>
