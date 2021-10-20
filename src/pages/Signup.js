@@ -24,8 +24,8 @@ const Signup = () => {
         </div>
         <div className="col-lg-6 col-sm-12">
           <div className="my-4 text-center">
-            <h2>Please Sign Up</h2>
-            <p className="mt-2 ">Sign Up with Email & Password</p>
+            <h2 style={{ color: "#023c76" }}>Please Sign Up</h2>
+            <p className="mt-2 mb-4 ">Sign Up with Email & Password</p>
             <p className="text-center text-danger">{error}</p>
             <div className="mx-auto w-50">
               <Form onSubmit={singUp}>

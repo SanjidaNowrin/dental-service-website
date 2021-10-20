@@ -35,8 +35,8 @@ const Login = () => {
         </div>
         <div className="col-lg-6 col-sm-12">
           <div className="my-4 text-center">
-            <h2>Please Login</h2>
-            <p className="mt-2 ">Login with Email & Password</p>
+            <h2 style={{ color: "#023c76" }}>Please Login</h2>
+            <p className="mt-2 mb-4 ">Login with Email & Password</p>
             <p className="text-center text-danger">{error}</p>
             <div className="mx-auto w-50">
               <Form
@@ -100,7 +100,7 @@ const Login = () => {
                 </button>
               </Form>
             </div>
-            <p className="mt-2">
+            <p className="mt-2" style={{ color: "#023c76" }}>
               <NavLink className="text-decoration-none" to="/signup">
                 Need an Account? Please Sign up!
               </NavLink>

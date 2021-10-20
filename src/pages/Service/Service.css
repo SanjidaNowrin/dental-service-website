@@ -6,3 +6,10 @@
   padding: 5px;
   cursor: pointer;
 }
+.details-btn:hover {
+  background-color: rgb(71, 152, 245);
+}
+.cardHover:hover {
+  transform: scale(1.03);
+  transition: transform 1s;
+}

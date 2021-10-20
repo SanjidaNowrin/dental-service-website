@@ -1,13 +1,19 @@
 import React from "react";
 import "./Footer.css";
 import { NavLink } from "react-router-dom";
-import Dentist from "./../../pages/Dentist/Dentist";
+import logo from "./../../assets/images/logo.png";
 const Footer = () => {
   return (
     <div className="footer">
       <div className="container">
         <div className="row">
           <div className="footer-col">
+            <img
+              width="180px"
+              src={logo}
+              alt="Logo"
+              className="mt-0 img-fluid"
+            />
             <ul>
               <li>
                 <a href="#">about us</a>

@@ -2,65 +2,74 @@
 
     {
         "id":"1",
-        "name":"Complete Whitening Pack",
+        "name":"Complete Whitening",
         "img":"https://i.ibb.co/R4DjYWq/1.jpg",
         "desc":"Using a whitening toothpaste or mouthwash, trying whitening pens, strips or trays are all good ways to supplement your normal oral hygiene habits.",
-        "advantages":"Straight, white teeth are no longer just for celebrities. Advancements in cosmetic dentistry over the last several years have made teeth whitening safer."
+        "advantages":"Straight, white teeth are no longer just for celebrities. Advancements in cosmetic dentistry over the last several years have made teeth whitening safer.At first glance, this seems more obvious than not, especially if you love the feeling of a professional cleaning over your regular dental hygiene with toothpaste and a toothbrush. A professional whitening session at your dentist’s office will provide better, whiter, and more even results. However, for a more thorough whitening, or to address moderate to severe stains or discoloration, a professional teeth whitening procedure outstrips any over-the-counter product, which is typically only good for light stains, if effective at all.",
+        "cost":"20$"
     },
     {
         "id":"2",
         "name":"Sedation Dentistry",
         "img":"https://i.ibb.co/q03LXDC/2.jpg",
-        "desc":"Sedation dentistry uses medication to help patients relax during dental procedures.Patients are usually awake with the exception of those who are under general anesthesia.",
-        "advantages":"Ease of Treatment. Whether you struggle with a gag reflex or have sensitive teeth or gums, sedation allows the Whitlock team to perform."
+        "desc":"Sedation dentistry uses medication to help patients relax during dental procedures.Patients are usually awake with the exception.",
+        "advantages":"Ease of Treatment. Whether you struggle with a gag reflex or have sensitive teeth or gums, sedation allows the Whitlock team to perform.Whether you suffer from tooth or gum sensitivity or experience a gag reflex, dental sedation allows our team to perform the treatment without usual stress and difficulties you may experience. With a calm and relaxed patient, the treatment goes faster. It is easier for both the dentist and the patient, allowing the dentist to focus exclusively on the procedure.Haven’t heard of anyone feeling comfortable at the dentist? Well, it happens every day at Rockcliffe Dental & Denture Centre thanks to the benefits of sedation dentistry.",
+        "cost":"40$"
     },
     {
         "id":"3",
         "name":"Dental Cleaning",
         "img":"https://i.ibb.co/rHZbhJV/3.jpg",
         "desc":"Most teeth cleanings are performed by a dental hygienist. Before the actual cleaning process begins, they start with a physical exam of your entire mouth.",
-        "advantages":"It brightens your smile.Your teeth can get stained by certain food and drinks.Bad breath is reduced. The best way to reduce bad breath."
+        "advantages":"It brightens your smile.Your teeth can get stained by certain food and drinks.Bad breath is reduced. The best way to reduce bad breath.Your teeth can get stained by certain food and drinks. Dental cleaning removes built-up stains which results in perfectly polished teeth. There’s no better way to brighten up your smile than having your teeth cleaned by your dentist.The best way to reduce bad breath is by maintaining clean teeth. Going beyond your daily brushing and flossing by getting a dental cleaning treatment gives you a healthier mouth and a fresher breath.",
+        "cost":"50$"
     },
     {
         "id":"4",
         "name":"Cosmetic Dentistry",
         "img":"https://i.ibb.co/2M1BpSs/4.jpg",
         "desc":"If you’re not satisfied with your smile, modern cosmetic dentistry can help. This method of professional oral care focuses on improving the appearance.",
-        "advantages":"Improved self-confidence. The benefits of improved self-confidence aren't easy to measure.Improved dental health."
+        "advantages":"Improved self-confidence. The benefits of improved self-confidence aren't easy to measure.Improved dental health.Severely curved teeth are not just a cosmetic dental concern. Actually, crooked teeth can disturb your oral health as well. Just as decayed or cracked teeth give birth to several other oral health problems like jaw pain, and periodontal disease, crooked teeth can also contribute to the same issues. You can maintain healthy teeth and gums while having these cosmetic dental issues corrected quickly.Cosmetic dentistry can have an impact on your smile for a longer period of time. The effects of such procedures last for longer than a decade and will save you money on regular dental treatments.",
+        "cost":"25$"
     },
     {
         "id":"5",
         "name":"Fissure Sealants",
         "img":"https://i.ibb.co/JQZWvwP/5.jpg",
         "desc":"Fissure sealants are a white or clear composite resin, similar to a white tooth filling. The sealants provide a barrier against bacteria that can cause plaque.",
-        "advantages":"Sealants are durable under the force of normal chewing and can last several years before reapplication is needed.Easy to apply."
+        "advantages":"Sealants are durable under the force of normal chewing and can last several years before reapplication is needed.Easy to apply.Brushing and flossing help remove food particles and plaque from smooth surfaces of teeth. However, the bristles cannot reach all the way into the depressions and grooves to remove food and plaque.Sealants protect these vulnerable areas by “sealing out” plaque and food .A plastic material usually applied to the chewing surfaces of the back teeth (premolars and molars) where cavities occurs most often.The sealant, a plastic resin, is painted onto the depressions and grooves (pits and fissures) of the chewing surfaces of back teeth.",
+        "cost":"60$"
     },
     {
         "id":"6",
         "name":"Oral Mucosa",
         "img":"https://i.ibb.co/5YtwBBV/6.jpg",
         "desc":"The oral mucosa is the mucous membrane lining the inside of the mouth. It comprises stratified squamous epithelium.The oral mucosa is classified into three categories.",
-        "advantages":"The oral mucosa has several functions. Its main purpose is to act as a barrier. It protects the deeper tissues such as fat, muscle, nerve."
+        "advantages":"The oral mucosa has several functions. Its main purpose is to act as a barrier. It protects the deeper tissues such as fat, muscle, nerve.Oral mucosal drug delivery is an alternative method of systemic drug delivery that offers several advantages over both injectable and enteral methods. Because the oral mucosa is highly vascularised, drugs that are absorbed through the oral mucosa directly enter the systemic circulation, bypassing the gastrointestinal tract and first-pass metabolism in the liver.For some drugs, this results in rapid onset of action via a more comfortable and convenient delivery route than the intravenous route.",
+        "cost":"55$"
     },
     {
         "id":"7",
         "name":"Aligning the Teeth",
         "img":"https://i.ibb.co/bg8Gmj8/7.jpg",
-        "desc":"Teeth alignment is typically corrected through two methods: braces or aligners. In some cases, contemporary braces may be more appropriate  to address your orthodontic needs and budget.",
-        "advantages":"Proper alignment enhances tooth and jaw function, thus maximizing long-term oral health and comfort. Proper alignment increases the longevity of the dentistry."
+        "desc":"Teeth alignment is typically corrected through two methods: braces or aligners. In some cases, contemporary braces may be more appropriate  to address your orthodontic.",
+        "advantages":"Proper alignment enhances tooth and jaw function, thus maximizing long-term oral health and comfort. Proper alignment increases the longevity of the dentistry.The benefits of teeth straightening go far beyond just achieving a beautiful smile. By having your teeth straightened, you can improve your oral health, prevent a wide series of medical issues, and become more confident to boot!.What used to be considered a procedure for children and teenagers has now become common among people of all ages.n the long run, you prevent the onset of periodontal diseases.",
+        "cost":"46$"
     },
     {
         "id":"8",
         "name":"Child’s First Dental Visit",
         "img":"https://i.ibb.co/Ryh2q54/8.jpg",
         "desc":"The first dental visit is recommended by 12 months of age, or within 6 months of the first tooth coming in.The first visit often lasts 30 to 45 minutes.",
-        "advantages":"Scheduling your child's first dentist visit early is crucial for preventing cavities. Seeing the dentist early on in life will also help your child get used to "
+        "advantages":"Scheduling your child's first dentist visit early is crucial for preventing cavities. Seeing the dentist early on in life will also help your child get used to.The sooner children begin getting regular dental checkups, the healthier their mouths will stay throughout their lives. Early checkups help prevent cavities and tooth decay, which can lead to pain, trouble concentrating and other medical issues.The first dental visit provides the dentist an opportunity to advise parents on prevention of oral diseases and also allows for early detection of caries and arrest of its progression.",
+        "cost":"80$"
     },
     {
         "id":"9",
         "name":"Caries Removal",
         "img":"https://i.ibb.co/G0MKxvk/Dentist-examining-little-boy-s-teeth-in-clinic.jpg",
         "desc":"Selective Caries Removal in Permanent Teeth (SCRiPT) for the treatment of deep carious lesions: a randomized controlled clinical trial in primary care.",
-        "advantages":"Conservative removal of tooth tissue for both primary and secondary caries reduces the risk of failure due to tooth-restoration"
+        "advantages":"Conservative removal of tooth tissue for both primary and secondary caries reduces the risk of failure due to tooth-restoration.Parallel group and split mouth randomised and quasi-randomised controlled trials comparing stepwise, partial and no dentinal caries removal with complete caries removal in unrestored primary and permanent teeth were included in this review.There were two very different studies which looked at no dentinal caries removal compared to complete caries removal. There was some evidence of no difference between these techniques.",
+        "cost":"75$"
     }
 ]
