@@ -81,7 +81,7 @@ const Dentists = () => {
       <div className="row ">
         <h1 style={{ color: "#023c76" }} className="mt-5 text-center">
           Our Specialized and Experienced <br />
-          <span style={{ color: "black" }}>-Dentist-</span>
+          <i style={{ color: "black" }}>-Dentist-</i>
         </h1>
         {dentists.map((dentist) => (
           <Dentist key={dentist.name} dentist={dentist}></Dentist>

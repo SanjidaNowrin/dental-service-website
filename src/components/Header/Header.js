@@ -55,7 +55,11 @@ const Header = () => {
                   <div className="text-center">
                     <h6>{displayName}</h6>
                     <p className="m-0 mb-2">{email}</p>
-                    <button onClick={logOut} className="btn btn-primary">
+                    <button
+                      onClick={logOut}
+                      style={{ backgroundColor: "#023c76" }}
+                      className="border-0 btn btn-primary"
+                    >
                       Log Out
                     </button>
                   </div>

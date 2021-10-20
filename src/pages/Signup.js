@@ -23,11 +23,11 @@ const Signup = () => {
           <img src={signup} alt="" className="img-fluid" />
         </div>
         <div className="col-lg-6 col-sm-12">
-          <div className="my-4 text-center">
+          <div className="p-5 my-4 text-center shadow-lg">
             <h2 style={{ color: "#023c76" }}>Please Sign Up</h2>
             <p className="mt-2 mb-4 ">Sign Up with Email & Password</p>
             <p className="text-center text-danger">{error}</p>
-            <div className="mx-auto w-50">
+            <div className="mx-auto w-75 ">
               <Form onSubmit={singUp}>
                 <Row>
                   <Col className="text-start">
@@ -36,7 +36,10 @@ const Signup = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faUser}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         required
@@ -56,7 +59,10 @@ const Signup = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         required
@@ -76,7 +82,10 @@ const Signup = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faLock}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faLock}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         required
@@ -96,7 +105,10 @@ const Signup = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faLink}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faLink}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         required

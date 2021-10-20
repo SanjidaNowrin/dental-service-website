@@ -29,16 +29,16 @@ const Login = () => {
 
   return (
     <div className="container">
-      <div className="m-0 mt-5 row">
+      <div className="m-0 mt-3 row">
         <div className="col-lg-6 col-sm-12 ">
           <img src={login} alt="" className="img-fluid" />
         </div>
         <div className="col-lg-6 col-sm-12">
-          <div className="my-4 text-center">
+          <div className="p-4 my-5 text-center shadow-lg">
             <h2 style={{ color: "#023c76" }}>Please Login</h2>
             <p className="mt-2 mb-4 ">Login with Email & Password</p>
             <p className="text-center text-danger">{error}</p>
-            <div className="mx-auto w-50">
+            <div className="mx-auto w-75">
               <Form
                 onSubmit={(e) => {
                   e.preventDefault();
@@ -59,7 +59,10 @@ const Login = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faEnvelope}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         onBlur={getEmail}
@@ -78,7 +81,10 @@ const Login = () => {
                     </Form.Label>
                     <InputGroup className="mb-2">
                       <InputGroup.Text>
-                        <FontAwesomeIcon icon={faLock}></FontAwesomeIcon>
+                        <FontAwesomeIcon
+                          icon={faLock}
+                          style={{ color: "#023c76" }}
+                        ></FontAwesomeIcon>
                       </InputGroup.Text>
                       <FormControl
                         onBlur={getPassword}
@@ -105,8 +111,10 @@ const Login = () => {
                 Need an Account? Please Sign up!
               </NavLink>
             </p>
-            <p className="mt-3">Or</p>
-            <p> Login with</p>
+            <p className="mt-3" style={{ color: "#023C76" }}>
+              Or
+            </p>
+            <p style={{ color: "#023C76" }}> Login with</p>
             <div>
               <button
                 onClick={() => {
